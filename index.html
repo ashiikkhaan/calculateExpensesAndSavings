@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master Dom</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+    <header>
+        <h1>Calculate Your Expenses and Savings</h1>
+    </header>
+    <main class="">
+        <section class="imgSection">
+            <img src="/images/expenses.jpeg" alt="Image for Expenses and Savings">
+        </section>
+        <section class="calculationSection">
+            <div>
+                <h3>Income</h3>
+                <label for="incomeInput">Income:</label>
+                <input id="incomeInput" type="text">
+            </div>
+            <div>
+                <h3>Expenses</h3>
+                <label for="foodCost">Food:</label>
+                <input id="foodCost" type="text"> <br>
+                <label for="rentCost">Rent:</label>
+                <input id="rentCost" type="text"> <br>
+                <label for="clothesCost">Clothes:</label>
+                <input id="clothesCost" type="text">
+            </div>
+            <div>
+                <button>Calculate</button>
+                <h3>Total Expenses: <span>000</span> </h3>
+                <h3>Balance: <span>000</span> </h3>
+            </div>
+            <div>
+                <div class="savePart">
+                    <label for="saveAmount">Save:</label>
+                    <input id="saveAmount" type="text">
+                    <p>%</p>
+                    <button>Save</button>
+                </div>
+                <h3>Saving Amount: <span>000</span> </h3>
+                <h3>Remaining Balance: <span>000</span> </h3>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

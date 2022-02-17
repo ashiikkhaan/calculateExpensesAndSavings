@@ -1,0 +1,17 @@
+main {
+    display: flex;
+}
+.imgSection {
+    width: 60%;
+}
+.calculationSection {
+    width: 40%;
+    background-color: rgba(237, 237, 237, 0.487);
+    padding: 20px;
+    text-align: center;
+}
+.savePart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
